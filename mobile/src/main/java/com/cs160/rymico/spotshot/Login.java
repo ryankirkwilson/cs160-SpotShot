@@ -78,6 +78,8 @@ public class Login extends ActionBarActivity {
 
         // Pass the activity result to the login button.
         loginButton.onActivityResult(requestCode, resultCode, data);
-        this.finish();
+        Intent main = new Intent(this, MainActivity.class);
+        startActivity(main);
+        //this.finish();
     }
 }

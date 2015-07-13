@@ -20,6 +20,6 @@ public class MainActivity extends Activity {
         Intent accel = new Intent(this, AccelerometerListenerService.class);
         startService(wear);
         startService(accel);
-        this.finish();
+        //this.finish();
     }
 }
