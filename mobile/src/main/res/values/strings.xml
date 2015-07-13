@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpotShot</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome to SpotShot!</string>
+    <string name="document">Document your passion!</string>
+    <string name="action_settings">Settings</string>
+</resources>
